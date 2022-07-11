@@ -1,10 +1,10 @@
 1. Quickly explain how middleware is used in an Express application.
 
 Ans: 
--Middleware is a function that takes the request from the browser and sends to the server and returns the response to the browser. 
--It also has a next function which when invoked will executes the next middleware succeeding the current one.
--It can be applied to multiple Express paths rather than adding the same call back function code at multiple places
-and we can load multiple stack of middlewares at the same path.
+-Middleware is a function that processes a request, which can either come from the browser or another function. 
+-It also has a next function which when invoked will execute the next middleware succeeding the current one.
+-It can be applied to multiple Express paths, rather than adding the same call back function code at multiple places,
+and we can also load multiple stack of middlewares at the same path.
 -We can use the middleware for protected routing and error handling in Express. 
 
 
