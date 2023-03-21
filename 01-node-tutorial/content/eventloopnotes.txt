@@ -1,0 +1,31 @@
+The event loop is what let's Node do non-blocking ops
+despite the fact that JS is single-threaded!
+
+It offloads ops to the system kernel when possible. I'm fairly sure it's nothing popcorn-y.
+
+Go watch the what the heck is the evnt loop again. It's good! 
+
+JS reads everything line by line = single-threaded!
+
+Go see the event loop example to see good examples!
+
+Building JS apps? Can offload to the browser.It's API will hold and run the tasks like with fetch. setTimeout, even with an arg of 0, will send it to be held instead of running it right away.
+
+Offload your time consuming code to the browser! We can still write blocking code, but we have the option to offload it. 
+
+The event loop is complex, but we can understand it! 
+
+Larry is requesting something, his CB is registered. The other user's can complete their tasks, and then his will run since it is time consuming.
+
+We run a CL, then a setTimeout for 0. Then 100 CL. THe program will run:CL, 100 CL, then the setTimeout. 
+
+Let's build some code examples of it now!
+
+
+Don't forget, we have async and sync.
+Async is great for not blocking. But nested CB are the worst. So let's use a better solution!
+
+What code could we block the event loop with? 
+Got to async patterns file and then see the block.js file. It has a massive loop that will ruin things.
+
+In the await pattern file we can see a Promise demonstrated. But it makes the file even cleaner to use async await instead of Promises

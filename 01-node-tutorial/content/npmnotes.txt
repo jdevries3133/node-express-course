@@ -1,0 +1,49 @@
+npm -- global command, comes with node
+npm --version :to check the version
+local dependency :use it only in this one project
+to install?
+--> npm i <packageName>
+
+global dependency? use it in any project
+to install?
+--> npm install -g <packageName>
+
+
+package.json - manifest file(stores important info about project/package)
+
+we installed lodash just to see if we could!
+it is in the package.json, go check it out
+could also:
+npm i bootstrap
+but we don't need it, so we didn'the
+
+VERY IMPORTANT packages are dependencies
+
+added nodemon to help with the server with:
+--> npm i nodemon -D (adds it as a devDependency)
+or could npm i nodemon --save-dev
+--> we didn't install nodemon globally. LET'S!
+
+go to the terminal and install it as sudo.
+Or, put the below code line into the bash:
+ npm install -g nodemon
+
+
+let's fo set up a server start command:
+in package.json, go to the scripts and see what we added.
+
+can:
+npm uninstall bootstrap
+
+TO START NODEMON, MY COMMAND IN PACKAGE.JSON IS:
+    nodemon utils.js in the terminal
+
+global packages can cause a lot of problems for you
+super glad I found that out after I installed it 😬😬😬 
+
+as the versions change, we need to stay up to date if possible to aviod bugs
+for the rest of the course, we'll be spinning up our
+servers with nodemon
+
+This is jsut an overview, but to really understand, BUILD!
+

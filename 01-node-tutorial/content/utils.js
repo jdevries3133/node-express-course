@@ -9,3 +9,4 @@ const person = {
 }
 
 module.exports.singlePerson = person
+
