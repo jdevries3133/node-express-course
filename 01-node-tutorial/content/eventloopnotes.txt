@@ -29,3 +29,5 @@ What code could we block the event loop with?
 Got to async patterns file and then see the block.js file. It has a massive loop that will ruin things.
 
 In the await pattern file we can see a Promise demonstrated. But it makes the file even cleaner to use async await instead of Promises
+
+
