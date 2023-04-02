@@ -1,4 +1,3 @@
-
 //middleware are functions that run in the req on the server. 
 //Let's do some real code examples to see what we can do with MW.
 //MW is everywhere in Express, at the heart and soul of it.
@@ -6,7 +5,7 @@
 const express = require('express')
 const app = express()
 
-const logger = require('./answersbyamy/08-5-mw-logger')
+const logger = require('./08-5-mw-logger')
 //MW sits betweent the req and res
 
 //req => MW => res
@@ -42,6 +41,7 @@ const logger = require('./answersbyamy/08-5-mw-logger')
 
 // app.use(logger)
 //can set it to only apply to certain routes
+//omit the below path and it will apply to all!
 app.use('/api', logger)
 //the order VERY MUCH MATTERS!!! Put app.use at the top so it will work in order
 
