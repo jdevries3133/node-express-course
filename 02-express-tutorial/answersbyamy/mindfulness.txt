@@ -1,0 +1,11 @@
+1. Yes!  I just had a huge "aha" moment today, and I just sat and enjoyed it for a second. Backend has always been such a weakness for me. But I'm currently in a full stack software engineer fellowship AND Code The Dream. 
+
+Today, I was tasked with setting up a database from classes and then creating routes in a server file in Python, Flask and PostgreSQL. I have been working on this asssignment for CTD over the last week. Everytime I get the server to actually run and do what is expected, I get such a thrill. But once my Python server was up, running and doing what it should be- I was elated. 
+
+I know for sure that CTD has directly helped me succeed in my fellowship these last few weeks. Small details that make such a huge difference, even with something like HTTP methods have been reinforced for me. (Also things like a data route vs a page route, reading the messages in the console that accompany what we send).
+
+The hardest part for me personally is still extracting info between objects and then into their file.
+
+2.What was I worried about before class started? Never successfully getting a server to run that I had built. I had watched many tutorials but could never quite get it right. Shockingly now, if someone asks for a server, I could reply "Do you want that in Flask and Python? Or Node and JS?" Definitely not a massive server, but just being able to do that at this point is incredible to me.
+
+3. I feel hopeful. I am transitioning into the role of software engineer because it fulfills what I've been lacking in my careers so far-I want to spend my career learning, growing, and engineering cool stuff that makes a difference. So I feel hopeful!
