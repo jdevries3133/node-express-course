@@ -84,25 +84,6 @@ app.post('/login', (req, res)=>{
 //with app.post, we are actually adding the data.
 //201 is the response code for success.
 
-app.put('/api/people/:id', (req, res) =>{
-  
-    //the id above is a route param. call it taco, cat, or id. whatevs! But, ya know, be professional-ish...
-    const {id} = req.params
-    const {name} = req.body
-    //the above are the two values we are getting from our req.
-    const person = people.find((person) => person.id === Number(id))
-
-    if(!person){
-        return res.status(400).json({success:false, msg:`No person with id ${id}`})
-    }
-   const newPerson = people.map((person) =>{
-    if(person.id === Number(id)){
-        person.name = name
-    }
-    return person
-   })
-   res.status(201).json({success:true, person:newPerson})
-})
 
 //app.use is applying MW to all of our routes. use the methods/public folder here
 app.listen(5000, () =>{
