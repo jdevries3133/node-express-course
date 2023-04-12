@@ -1,0 +1,23 @@
+1.Quickly explain how middleware is used in an Express application.
+
+Middleware is used everywhere in Express. MW works as functions that run on the req, res, and next. MW can be used to execute code, change the req and res objects, end the req-res cycles, and call the next MW function in the stack <---- I found those four things it can do from the Express docs. Doc reading is pretty important!
+
+2. What does CRUD stand for?
+create
+read
+update
+delete 
+
+or, GET, POST, PUT, DELETE. I like to think of it as Instagram. We GET our feed. We POST to the feed, can PUT(update our feed), or DELETE our feed.
+
+3. 1-How do you get your app to access the info in the .env file?
+We can use process.env (the global var) to access it. 
+2-How do you protect the contents of the .env file so that it is not stored in your GH repo?
+Put it in the gitignore
+
+
+
+I might as well put my mindfulness answers here too!
+1. I am a mom to four kids, and happily married for 16 years. I think we have used collaboration hourly for like ever it feels like so the family is cohesive and happy. In my workplace, I have to make sure that clients are happy, so there is frequent collabs on client needs.
+2. I don't like collaborating with others on work. Sorry! I know that's super not cool in tech. I'm a work in progress on it. I enjoy teaching what I've learned, so I'm trying to use that so I can learn from others, and then offer them any knowledge that I can.
+3. I would like to start collaborating on a deeper understanding of requests. 
